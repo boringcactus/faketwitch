@@ -23,8 +23,10 @@ Hooooooooo boy this sucks. Assumes you're on Windows and playing Dead Cells.
 2. Get your Mixer access token - the easy way is to steal it from [the Mixer chat API example](https://dev.mixer.com/guides/chat/chatbot) by clicking the `'Click here to get your Token!'` in the Node example.
 3. Get your Mixer OAuth client ID by making a new Mixer OAuth application.
 4. Dump all those in `config.py`.
+5. Uncomment `import mixer as backend` in `config.py`.
 
 ## YouTube Live Setup (doesn't work yet)
 1. Make a project in the [Google Developers Console](https://console.developers.google.com/) and give it access to the YouTube Data API.
 2. Set up credentials. You're using the YouTube Data API from an Other UI and accessing user data. Your consent screen will need `youtube` and `youtube.force_ssl` scopes. You will get a scary warning about verification here; you can ignore it. Download the credentials as JSON.
 3. Take the entire JSON file and dump it in `config.py`.
+4. Uncomment `import youtube as backend` in `config.py`.
