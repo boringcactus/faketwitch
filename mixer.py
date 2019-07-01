@@ -9,7 +9,7 @@ import config
 
 bad_ids = set()
 def handle_chat(data, handle_message):
-    print('Got', data)
+    # print('Got', data, file=sys.stderr)
     msg_type = data['type']
     try:
         if msg_type == 'reply':
