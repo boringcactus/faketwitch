@@ -1,2 +1,6 @@
 /config.py
 /.vscode
+*.egg-info/
+*.egg
+__pycache__
+/youtube_credentials.json

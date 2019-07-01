@@ -1,0 +1,3 @@
+[submodule "mixer_sample"]
+	path = mixer_sample
+	url = https://github.com/mixer/beam-client-python.git
